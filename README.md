@@ -29,3 +29,29 @@ def reverse(string):
 print(reverse(str1))
 ```
 Result: cba
+
+### Problem 3
+#### Find odd and even integers in a given list
+```
+l1 = [3, 6, 9, 12, 15, 18, 21]
+
+def odd(list):
+    odd_list=[]
+    for i in list:
+        if i % 2 != 0:
+            odd_list.append(i)
+    return odd_list
+    
+def even(list):
+    even_list=[]
+    for i in list:
+        if i % 2 == 0:
+            even_list.append(i)
+    return even_list
+    
+print("odd: ",odd(l1))
+print("even: ",even(l1))
+```
+Result: 
+odd:  [3, 9, 15, 21]
+even:  [6, 12, 18]
