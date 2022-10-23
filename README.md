@@ -15,5 +15,17 @@ def largest(list):
     
 print(largest(a))
 ```
-
 Result: 45
+
+
+### Problem 2
+#### Reverse a given string
+```
+str1 = 'abc'
+
+def reverse(string):
+    return string[::-1]
+    
+print(reverse(str1))
+```
+Result: cba
